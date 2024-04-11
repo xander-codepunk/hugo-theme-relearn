@@ -2,75 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basics on Hugo Relearn Theme</title>
-    <link>https://McShelby.github.io/hugo-theme-relearn/basics/</link>
+    <link>https://mcshelby.github.io/hugo-theme-relearn/basics/index.html</link>
     <description>Recent content in Basics on Hugo Relearn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://McShelby.github.io/hugo-theme-relearn/basics/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="https://mcshelby.github.io/hugo-theme-relearn/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What&#39;s new</title>
-      <link>https://McShelby.github.io/hugo-theme-relearn/basics/migration/</link>
+      <title>What&#39;s New</title>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/migration/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://McShelby.github.io/hugo-theme-relearn/basics/migration/</guid>
-      <description>This document shows you what&amp;rsquo;s new in the latest release. For a detailed list of changes, see the history page.
-Breaking: A change that requires action by you after upgrading to assure the site is still functional.
-Change: A change in default behavior. This may requires action by you / may or may not be revertable by configuration.
-New: Marks new behavior you might find interesting or comes configurable.
- 3.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/migration/index.html</guid>
+      <description>This document shows you what&amp;rsquo;s new in the latest release and flags it with one of the following badges. For a detailed list of changes, see the history page.&#xA;0.121.0 The minimum required Hugo version.&#xA;Breaking A change that requires action by you after upgrading to assure the site is still functional.&#xA;Change A change in default behavior that may requires action by you if you want to revert it.</description>
     </item>
     <item>
       <title>Requirements</title>
-      <link>https://McShelby.github.io/hugo-theme-relearn/basics/requirements/</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/requirements/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://McShelby.github.io/hugo-theme-relearn/basics/requirements/</guid>
-      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.
-Just download latest version of Hugo binary for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/requirements/index.html</guid>
+      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.&#xA;Just download at least version 0.121.0 of the Hugo binary for your OS (Windows, Linux, Mac).&#xA;It&amp;rsquo;s a kind of magic</description>
     </item>
     <item>
       <title>Installation</title>
-      <link>https://McShelby.github.io/hugo-theme-relearn/basics/installation/</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/installation/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://McShelby.github.io/hugo-theme-relearn/basics/installation/</guid>
-      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt; Install the theme Install the Relearn theme by following this documentation
-This theme&amp;rsquo;s repository is: https://github.com/McShelby/hugo-theme-relearn.git
-Alternatively, you can download the theme as .</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/installation/index.html</guid>
+      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.&#xA;Tip The following tutorial leads you thru the steps of creating a first, minimal new site.&#xA;You don&amp;rsquo;t need to edit any files besides your hugo.toml and only need to execute the commands in the given order.</description>
     </item>
     <item>
       <title>Configuration</title>
-      <link>https://McShelby.github.io/hugo-theme-relearn/basics/configuration/</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://McShelby.github.io/hugo-theme-relearn/basics/configuration/</guid>
-      <description>Global site parameters On top of Hugo global configuration, the Relearn theme lets you define the following parameters in your config.toml (here, values are default).
-Note that some of these parameters are explained in details in other sections of this documentation.
-[params] # This controls whether submenus will be expanded (true), or collapsed (false) in the # menu; if no setting is given, the first menu level is set to false, all others to true; # this can be overridden in the pages frontmatter alwaysopen = true # Prefix URL to edit current page.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html</guid>
+      <description>On top of Hugo&amp;rsquo;s global configuration options, the Relearn theme lets you define further options unique to the theme in your hugo.toml.&#xA;Note that some of these options are explained in detail in other sections of this documentation.&#xA;All config options The values reflect the options active in this documentation. The defaults can be taken from the annotated example below.&#xA;hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;] alwaysopen = &amp;#39;&amp;#39; breadcrumbSeparator = &amp;#39;&amp;gt;&amp;#39; collapsibleMenu = true customMathJaxURL = &amp;#39;&amp;#39; customMermaidURL = &amp;#39;&amp;#39; customOpenapiURL = &amp;#39;&amp;#39; description = &amp;#39;Documentation for Hugo Relearn Theme&amp;#39; disableAssetsBusting = false disableBreadcrumb = false disableExplicitIndexURLs = false disableGeneratorVersion = false disableHoverBlockCopyToClipBoard = false disableInlineCopyToClipBoard = true disableLandingPageButton = true disableLanguageSwitchingButton = false disableMathJax = true disableMermaid = true disableNextPrev = false disableOpenapi = true disableRandomIds = false disableRootBreadcrumb = true disableSearch = false disableSearchHiddenPages = false disableSeoHiddenPages = true disableShortcutsTitle = false disableTagHiddenPages = false disableTermBreadcrumbs = false disableToc = false editURL = &amp;#39;https://github.</description>
+    </item>
+    <item>
+      <title>Branding</title>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/branding/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/branding/index.html</guid>
+      <description>The Relearn theme provides configuration options to change your site&amp;rsquo;s colors, favicon and logo. This allows you to easily align your site visuals to your desired style. Most of these options are exposed thru so called color variants.&#xA;A color variant lets you customize various visual effects of your site like almost any color, used fonts, color schemes of print, syntax highligtning, Mermaid and the OpenAPI shortcode, etc. It contains of a CSS file and optional configuration options in your hugo.</description>
     </item>
     <item>
       <title>Customization</title>
-      <link>https://McShelby.github.io/hugo-theme-relearn/basics/customization/</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/customization/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://McShelby.github.io/hugo-theme-relearn/basics/customization/</guid>
-      <description>The Relearn theme has been built to be as configurable as possible by defining multiple partials
-In themes/hugo-theme-relearn/layouts/partials/, you will find all the partials defined for this theme. If you need to overwrite something, don&amp;rsquo;t change the code directly. Instead follow this page. You&amp;rsquo;d create a new partial in the layouts/partials folder of your local project. This partial will have the priority.
-This theme defines the following partials :
- header.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/customization/index.html</guid>
+      <description>Usage scenarios The theme is usable in different scenarios, requiring the following mandatory settings in your hugo.toml. All settings not mentioned can be set to your liking.&#xA;Public Webserver from Root hugo. toml yaml json baseURL = &amp;#39;https://example.com/&amp;#39; baseURL: https://example.com/ { &amp;#34;baseURL&amp;#34;: &amp;#34;https://example.com/&amp;#34; } Public Webserver from Subdirectory hugo. toml yaml json baseURL = &amp;#39;https://example.com/mysite/&amp;#39; relativeURLs = false baseURL: https://example.com/mysite/ relativeURLs: false { &amp;#34;baseURL&amp;#34;: &amp;#34;https://example.com/mysite/&amp;#34;, &amp;#34;relativeURLs&amp;#34;: false } Private Webserver (LAN) The same settings as with any of the public webserver usage scenarios or</description>
     </item>
     <item>
       <title>Stylesheet generator</title>
-      <link>https://McShelby.github.io/hugo-theme-relearn/basics/generator/</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/generator/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://McShelby.github.io/hugo-theme-relearn/basics/generator/</guid>
-      <description>This interactive tool may help you to generate your own color variant stylesheet.
-To get started, first select a color variant from the variant switch that fits you best as a starting point.
-The graph is interactive and reflect the current colors. You can click on any of the colored boxes to adjust the respective color. The graph and the page will update accordingly.
-The arrowed lines reflects how colors are inherited thru different parts of the theme if the descendent isn&amp;rsquo;t overwritten.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/generator/index.html</guid>
+      <description>This interactive tool may help you to generate your own color variant stylesheet.&#xA;Show usage instructions To get started, first select a color variant from the variant selector in the lower left sidebar that fits you best as a starting point.&#xA;The graph is interactive and reflect the current colors. You can click on any of the colored boxes to adjust the respective color. The graph and the page will update accordingly.</description>
+    </item>
+    <item>
+      <title>Topbar Modification</title>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/topbar/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/topbar/index.html</guid>
+      <description>The theme comes with a reasonably configured topbar.&#xA;Nevertheless, your requirements may differ from this configuration. Luckily the theme got you covered as the themebar, its buttons and the functionality behind these buttons is fully configurable by you.&#xA;Tip All mentioned file names below can be clicked and show you the implementation for a better understanding.&#xA;Areas The default configuration comes with three predefined areas that may contain an arbitrary set of buttons.</description>
     </item>
     <item>
       <title>History</title>
-      <link>https://McShelby.github.io/hugo-theme-relearn/basics/history/</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/history/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://McShelby.github.io/hugo-theme-relearn/basics/history/</guid>
-      <description>Changelog 3.4.1 (2022-04-03) Fixes  [bug] theme: fix IE11 incompatiblities #234   3.4.0 (2022-04-03) Enhancements  [feature] i18n: add traditional chinese #233 [feature] menu: expand/collapse menu items without navigation #231 [feature] print: add option to print whole chapter #230 [feature] theme: apply user supplied content footer below content #229  Fixes  [bug] theme: scroll to heading on initial load #232   3.3.0 (2022-03-28) Enhancements  [feature] theme: add CSS font variables #227 [feature] swagger: add support for oas/swagger documentation #226  Fixes  [bug] variant: make variant switch work on slow networks #228   3.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/history/index.html</guid>
+      <description>Changelog 5.27.0 (2024-04-07) Enhancements [feature] theme: simplify title generation #825 [feature] theme: adjust to Hugo&amp;rsquo;s build-in code #824 [feature][change] link: warn if fragment is not found #823 [feature] theme: add styling for selected HTML elements #822 [feature] a11y: improve search box #821 [feature][change] dependencies: make loader more versatile #820 [feature] nav: scroll to prev/next heading using keyboard shortcut #819 [feature] breadcrumb: use .LinkTitle instead of .Title if available #816 Fixes [bug] scrollbar: scroll bar in side menu gets stuck in dragged state on mobile #808 5.</description>
     </item>
   </channel>
 </rss>
