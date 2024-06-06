@@ -1,48 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.124.1">
-    <meta name="generator" content="Relearn 5.27.0+tip">
-    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="generator" content="Hugo 0.127.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="On top of Hugo’s global configuration options, the Relearn theme lets you define further options unique to the theme in your hugo.">
     <meta name="author" content="Sören Weber">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://mcshelby.github.io/hugo-theme-relearn/images/hero.png">
     <meta name="twitter:title" content="Configuration :: Hugo Relearn Theme">
-    <meta name="twitter:description" content="Documentation for Hugo Relearn Theme">
+    <meta name="twitter:description" content="On top of Hugo’s global configuration options, the Relearn theme lets you define further options unique to the theme in your hugo.">
     <meta property="og:url" content="https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html">
     <meta property="og:site_name" content="Hugo Relearn Theme">
     <meta property="og:title" content="Configuration :: Hugo Relearn Theme">
-    <meta property="og:description" content="On top of Hugo&amp;rsquo;s global configuration options, the Relearn theme lets you define further options unique to the theme in your hugo.toml.
-Note that some of these options are explained in detail in other sections of this documentation.
-All config options The values reflect the options active in this documentation. The defaults can be taken from the annotated example below.
-hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;] alwaysopen = &amp;#39;&amp;#39; breadcrumbSeparator = &amp;#39;&amp;gt;&amp;#39; collapsibleMenu = true customMathJaxURL = &amp;#39;&amp;#39; customMermaidURL = &amp;#39;&amp;#39; customOpenapiURL = &amp;#39;&amp;#39; description = &amp;#39;Documentation for Hugo Relearn Theme&amp;#39; disableAssetsBusting = false disableBreadcrumb = false disableExplicitIndexURLs = false disableGeneratorVersion = false disableHoverBlockCopyToClipBoard = false disableInlineCopyToClipBoard = true disableLandingPageButton = true disableLanguageSwitchingButton = false disableMathJax = true disableMermaid = true disableNextPrev = false disableOpenapi = true disableRandomIds = false disableRootBreadcrumb = true disableSearch = false disableSearchHiddenPages = false disableSeoHiddenPages = true disableShortcutsTitle = false disableTagHiddenPages = false disableTermBreadcrumbs = false disableToc = false editURL = &amp;#39;https://github.">
+    <meta property="og:description" content="On top of Hugo’s global configuration options, the Relearn theme lets you define further options unique to the theme in your hugo.">
     <meta property="og:locale" content="en">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://mcshelby.github.io/hugo-theme-relearn/images/hero.png">
+    <meta itemprop="name" content="Configuration :: Hugo Relearn Theme">
+    <meta itemprop="description" content="On top of Hugo’s global configuration options, the Relearn theme lets you define further options unique to the theme in your hugo.">
+    <meta itemprop="wordCount" content="3778">
+    <meta itemprop="image" content="https://mcshelby.github.io/hugo-theme-relearn/images/hero.png">
+    <meta itemprop="keywords" content="Config">
     <title>Configuration :: Hugo Relearn Theme</title>
     <link href="https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html" rel="alternate" hreflang="x-default">
     <link href="https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html" rel="alternate" hreflang="en">
-    <link href="https://mcshelby.github.io/hugo-theme-relearn/pir/basics/configuration/index.html" rel="alternate" hreflang="art-pir">
+    <link href="https://mcshelby.github.io/hugo-theme-relearn/pir/basics/configuration/index.html" rel="alternate" hreflang="art-x-pir">
     <link href="https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html" rel="canonical" type="text/html" title="Configuration :: Hugo Relearn Theme">
     <link href="/hugo-theme-relearn/basics/configuration/index.xml" rel="alternate" type="application/rss+xml" title="Configuration :: Hugo Relearn Theme">
-    <link href="/hugo-theme-relearn/images/logo.svg?1712846150" rel="icon" type="image/svg+xml">
-    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/hugo-theme-relearn/css/fontawesome-all.min.css?1712846151" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugo-theme-relearn/css/fontawesome-all.min.css?1712846151" rel="stylesheet"></noscript>
-    <link href="/hugo-theme-relearn/css/nucleus.css?1712846151" rel="stylesheet">
-    <link href="/hugo-theme-relearn/css/auto-complete.css?1712846151" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugo-theme-relearn/css/auto-complete.css?1712846151" rel="stylesheet"></noscript>
-    <link href="/hugo-theme-relearn/css/perfect-scrollbar.min.css?1712846151" rel="stylesheet">
-    <link href="/hugo-theme-relearn/css/fonts.css?1712846151" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugo-theme-relearn/css/fonts.css?1712846151" rel="stylesheet"></noscript>
-    <link href="/hugo-theme-relearn/css/theme.css?1712846151" rel="stylesheet">
-    <link href="/hugo-theme-relearn/css/theme-relearn-auto.css?1712846151" rel="stylesheet" id="R-variant-style">
-    <link href="/hugo-theme-relearn/css/chroma-relearn-auto.css?1712846151" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/hugo-theme-relearn/css/variant.css?1712846151" rel="stylesheet">
-    <link href="/hugo-theme-relearn/css/print.css?1712846151" rel="stylesheet" media="print">
-    <link href="/hugo-theme-relearn/css/format-print.css?1712846151" rel="stylesheet">
-    <link href="/hugo-theme-relearn/css/ie.css?1712846151" rel="stylesheet">
-    <script src="/hugo-theme-relearn/js/url.js?1712846151"></script>
-    <script src="/hugo-theme-relearn/js/variant.js?1712846151"></script>
+    <link href="/hugo-theme-relearn/images/logo.svg?1717639454" rel="icon" type="image/svg+xml">
+    <link href="/hugo-theme-relearn/css/fontawesome-all.min.css?1717639455" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugo-theme-relearn/css/fontawesome-all.min.css?1717639455" rel="stylesheet"></noscript>
+    <link href="/hugo-theme-relearn/css/nucleus.css?1717639455" rel="stylesheet">
+    <link href="/hugo-theme-relearn/css/auto-complete.css?1717639455" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugo-theme-relearn/css/auto-complete.css?1717639455" rel="stylesheet"></noscript>
+    <link href="/hugo-theme-relearn/css/perfect-scrollbar.min.css?1717639455" rel="stylesheet">
+    <link href="/hugo-theme-relearn/css/fonts.css?1717639455" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugo-theme-relearn/css/fonts.css?1717639455" rel="stylesheet"></noscript>
+    <link href="/hugo-theme-relearn/css/theme.css?1717639455" rel="stylesheet">
+    <link href="/hugo-theme-relearn/css/theme-relearn-auto.css?1717639455" rel="stylesheet" id="R-variant-style">
+    <link href="/hugo-theme-relearn/css/chroma-relearn-auto.css?1717639455" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/hugo-theme-relearn/css/variant.css?1717639455" rel="stylesheet">
+    <link href="/hugo-theme-relearn/css/print.css?1717639455" rel="stylesheet" media="print">
+    <link href="/hugo-theme-relearn/css/format-print.css?1717639455" rel="stylesheet">
+    <script src="/hugo-theme-relearn/js/variant.js?1717639455"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -50,8 +49,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
       window.relearn.absBaseUri='https:\/\/mcshelby.github.io\/hugo-theme-relearn';
       window.index_js_url="/hugo-theme-relearn/index.search.js";
       // variant stuff
-      window.relearn.themeVariantModifier='';
-      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
       // translations
       window.T_Copy_to_clipboard = `Copy to clipboard`;
       window.T_Copied_to_clipboard = `Copied to clipboard!`;
@@ -104,7 +102,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 
 <h1 id="configuration">Configuration</h1>
 
-<p>On top of <a href="https://gohugo.io/overview/configuration/" rel="external" target="_blank">Hugo&rsquo;s global configuration options</a>, the Relearn theme lets you define further options unique to the theme in your <code>hugo.toml</code>.</p>
+<p>On top of <a href="https://gohugo.io/overview/configuration/" rel="external" target="_self">Hugo&rsquo;s global configuration options</a>, the Relearn theme lets you define further options unique to the theme in your <code>hugo.toml</code>.</p>
 <p>Note that some of these options are explained in detail in other sections of this documentation.</p>
 <h2 id="all-config-options">All config options</h2>
 <p>The values reflect the options active in this documentation. The defaults can be taken from the <a href="/hugo-theme-relearn/basics/configuration/index.html#annotated-config-options">annotated example</a> below.</p>
@@ -148,7 +146,6 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">  <span class="nx">customMathJaxURL</span> <span class="p">=</span> <span class="s1">&#39;&#39;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">customMermaidURL</span> <span class="p">=</span> <span class="s1">&#39;&#39;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">customOpenapiURL</span> <span class="p">=</span> <span class="s1">&#39;&#39;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">description</span> <span class="p">=</span> <span class="s1">&#39;Documentation for Hugo Relearn Theme&#39;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">disableAssetsBusting</span> <span class="p">=</span> <span class="kc">false</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">disableBreadcrumb</span> <span class="p">=</span> <span class="kc">false</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">disableExplicitIndexURLs</span> <span class="p">=</span> <span class="kc">false</span>
@@ -171,7 +168,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">  <span class="nx">disableTermBreadcrumbs</span> <span class="p">=</span> <span class="kc">false</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">disableToc</span> <span class="p">=</span> <span class="kc">false</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">editURL</span> <span class="p">=</span> <span class="s1">&#39;https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/${FilePath}&#39;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">externalLinkTarget</span> <span class="p">=</span> <span class="s1">&#39;_blank&#39;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">externalLinkTarget</span> <span class="p">=</span> <span class="s1">&#39;_self&#39;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">highlightWrap</span> <span class="p">=</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">images</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;images/hero.png&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">mathJaxInitialize</span> <span class="p">=</span> <span class="s1">&#39;{}&#39;</span>
@@ -179,14 +176,13 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">  <span class="nx">mermaidZoom</span> <span class="p">=</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">ordersectionsby</span> <span class="p">=</span> <span class="s1">&#39;weight&#39;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">showVisitedLinks</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">themeVariantModifier</span> <span class="p">=</span> <span class="s1">&#39;&#39;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">titleSeparator</span> <span class="p">=</span> <span class="s1">&#39;::&#39;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">author</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s1">&#39;Sören Weber&#39;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">image</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">errorlevel</span> <span class="p">=</span> <span class="s1">&#39;warning&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">errorlevel</span> <span class="p">=</span> <span class="s1">&#39;error&#39;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">imageEffects</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">border</span> <span class="p">=</span> <span class="kc">true</span>
@@ -194,51 +190,62 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">    <span class="nx">lightbox</span> <span class="p">=</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">shadow</span> <span class="p">=</span> <span class="kc">false</span>
 </span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">include</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">errorlevel</span> <span class="p">=</span> <span class="s1">&#39;error&#39;</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">link</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">errorlevel</span> <span class="p">=</span> <span class="s1">&#39;warning&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">errorlevel</span> <span class="p">=</span> <span class="s1">&#39;error&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">openapi</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">errorlevel</span> <span class="p">=</span> <span class="s1">&#39;error&#39;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">social</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">facebook_admin</span> <span class="p">=</span> <span class="s1">&#39;&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">twitter</span> <span class="p">=</span> <span class="s1">&#39;&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">auto</span> <span class="p">=</span> <span class="p">[]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;relearn-auto&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s1">&#39;Relearn Light/Dark&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;relearn-light&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;relearn-dark&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;relearn-bright&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">auto</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;zen-light&#39;</span><span class="p">,</span> <span class="s1">&#39;zen-dark&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;zen-auto&#39;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s1">&#39;Zen Light/Dark&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;zen-light&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;zen-dark&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">auto</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;learn&#39;</span><span class="p">,</span> <span class="s1">&#39;neon&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;retro-auto&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s1">&#39;Retro Learn/Neon&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;neon&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;learn&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;blue&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;green&#39;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">themeVariant</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s1">&#39;red&#39;</span></span></span></code></pre></div></div>
     </div>
     <div
@@ -257,7 +264,6 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">customMathJaxURL</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">customMermaidURL</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">customOpenapiURL</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">Documentation for Hugo Relearn Theme</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">disableAssetsBusting</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">disableBreadcrumb</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">disableExplicitIndexURLs</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
@@ -280,10 +286,10 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">disableTermBreadcrumbs</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">disableToc</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">editURL</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/${FilePath}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">externalLinkTarget</span><span class="p">:</span><span class="w"> </span><span class="l">_blank</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">externalLinkTarget</span><span class="p">:</span><span class="w"> </span><span class="l">_self</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">highlightWrap</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">image</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">errorlevel</span><span class="p">:</span><span class="w"> </span><span class="l">warning</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">errorlevel</span><span class="p">:</span><span class="w"> </span><span class="l">error</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">imageEffects</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">border</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">lazy</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
@@ -291,11 +297,15 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">shadow</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">images</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">images/hero.png</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">include</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">errorlevel</span><span class="p">:</span><span class="w"> </span><span class="l">error</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">link</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">errorlevel</span><span class="p">:</span><span class="w"> </span><span class="l">warning</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">errorlevel</span><span class="p">:</span><span class="w"> </span><span class="l">error</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">mathJaxInitialize</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;{}&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">mermaidInitialize</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;{ &#34;securityLevel&#34;: &#34;loose&#34; }&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">mermaidZoom</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">openapi</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">errorlevel</span><span class="p">:</span><span class="w"> </span><span class="l">error</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ordersectionsby</span><span class="p">:</span><span class="w"> </span><span class="l">weight</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">showVisitedLinks</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">social</span><span class="p">:</span><span class="w">
@@ -315,12 +325,16 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Zen Light/Dark</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">zen-light</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">zen-dark</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">auto</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">learn</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">neon</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">retro-auto</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Retro Learn/Neon</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">neon</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">learn</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">blue</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">green</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">red</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">themeVariantModifier</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">titleSeparator</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;::&#39;</span></span></span></code></pre></div></div>
     </div>
     <div
@@ -342,7 +356,6 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;customMathJaxURL&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;customMermaidURL&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;customOpenapiURL&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">      <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;Documentation for Hugo Relearn Theme&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;disableAssetsBusting&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;disableBreadcrumb&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;disableExplicitIndexURLs&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
@@ -365,10 +378,10 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;disableTermBreadcrumbs&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;disableToc&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;editURL&#34;</span><span class="p">:</span> <span class="s2">&#34;https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/${FilePath}&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">      <span class="nt">&#34;externalLinkTarget&#34;</span><span class="p">:</span> <span class="s2">&#34;_blank&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;externalLinkTarget&#34;</span><span class="p">:</span> <span class="s2">&#34;_self&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;highlightWrap&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;image&#34;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">         <span class="nt">&#34;errorlevel&#34;</span><span class="p">:</span> <span class="s2">&#34;warning&#34;</span>
+</span></span><span class="line"><span class="cl">         <span class="nt">&#34;errorlevel&#34;</span><span class="p">:</span> <span class="s2">&#34;error&#34;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">},</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;imageEffects&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">         <span class="nt">&#34;border&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
@@ -379,12 +392,18 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;images&#34;</span><span class="p">:</span> <span class="p">[</span>
 </span></span><span class="line"><span class="cl">         <span class="s2">&#34;images/hero.png&#34;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">],</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;include&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="nt">&#34;errorlevel&#34;</span><span class="p">:</span> <span class="s2">&#34;error&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;link&#34;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">         <span class="nt">&#34;errorlevel&#34;</span><span class="p">:</span> <span class="s2">&#34;warning&#34;</span>
+</span></span><span class="line"><span class="cl">         <span class="nt">&#34;errorlevel&#34;</span><span class="p">:</span> <span class="s2">&#34;error&#34;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">},</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;mathJaxInitialize&#34;</span><span class="p">:</span> <span class="s2">&#34;{}&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;mermaidInitialize&#34;</span><span class="p">:</span> <span class="s2">&#34;{ \&#34;securityLevel\&#34;: \&#34;loose\&#34; }&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;mermaidZoom&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;openapi&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="nt">&#34;errorlevel&#34;</span><span class="p">:</span> <span class="s2">&#34;error&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;ordersectionsby&#34;</span><span class="p">:</span> <span class="s2">&#34;weight&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;showVisitedLinks&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;social&#34;</span><span class="p">:</span> <span class="p">{</span>
@@ -421,6 +440,14 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">            <span class="nt">&#34;identifier&#34;</span><span class="p">:</span> <span class="s2">&#34;zen-dark&#34;</span>
 </span></span><span class="line"><span class="cl">         <span class="p">},</span>
 </span></span><span class="line"><span class="cl">         <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;auto&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">               <span class="s2">&#34;learn&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">               <span class="s2">&#34;neon&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">],</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;identifier&#34;</span><span class="p">:</span> <span class="s2">&#34;retro-auto&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Retro Learn/Neon&#34;</span>
+</span></span><span class="line"><span class="cl">         <span class="p">},</span>
+</span></span><span class="line"><span class="cl">         <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="nt">&#34;identifier&#34;</span><span class="p">:</span> <span class="s2">&#34;neon&#34;</span>
 </span></span><span class="line"><span class="cl">         <span class="p">},</span>
 </span></span><span class="line"><span class="cl">         <span class="p">{</span>
@@ -436,7 +463,6 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">            <span class="nt">&#34;identifier&#34;</span><span class="p">:</span> <span class="s2">&#34;red&#34;</span>
 </span></span><span class="line"><span class="cl">         <span class="p">}</span>
 </span></span><span class="line"><span class="cl">      <span class="p">],</span>
-</span></span><span class="line"><span class="cl">      <span class="nt">&#34;themeVariantModifier&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;titleSeparator&#34;</span><span class="p">:</span> <span class="s2">&#34;::&#34;</span>
 </span></span><span class="line"><span class="cl">   <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div>
@@ -445,13 +471,13 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </div>
 <h2 id="annotated-config-options">Annotated config options</h2>
 
-<div class="tab-panel" data-tab-group="625586dc453c341eef5f6bf0f62a4345">
+<div class="tab-panel" data-tab-group="395f7a4b81b0bfafc335c0e9d305265d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="hugotoml"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('625586dc453c341eef5f6bf0f62a4345','hugotoml')"
+      onclick="switchTab('395f7a4b81b0bfafc335c0e9d305265d','hugotoml')"
     >
       <span class="tab-nav-text">hugo.toml</span>
     </button>
@@ -464,11 +490,11 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 
 <div class="highlight wrap-code"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="c"># If an option value is said to be not set, you can achieve the same behavior</span>
-</span></span><span class="line"><span class="cl"><span class="c"># by given it an empty string value.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># by giving it an empty string value.</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">###############################################################################</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Hugo</span>
-</span></span><span class="line"><span class="cl"><span class="c"># These options usually apply to other themes aswell.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># These options usually apply to other themes as well.</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># The author of your site.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: not set</span>
@@ -484,13 +510,6 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># This can be overridden in the page&#39;s frontmatter.</span>
 </span></span><span class="line"><span class="cl"><span class="nx">images</span> <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;images/hero.png&#34;</span> <span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># The description of your site.</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Default: not set</span>
-</span></span><span class="line"><span class="cl"><span class="c"># This is used for generating HTML meta tags, social media meta information</span>
-</span></span><span class="line"><span class="cl"><span class="c"># for the opengraph protocol and twitter cards.</span>
-</span></span><span class="line"><span class="cl"><span class="c"># This can be overridden in the page&#39;s frontmatter.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">description</span> <span class="p">=</span> <span class="s2">&#34;Documentation for Hugo Relearn Theme&#34;</span>
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># Admin options for social media.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: not set</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Configuration for the Open Graph protocol and Twitter Cards adhere to Hugo&#39;s</span>
@@ -504,7 +523,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Branding</span>
-</span></span><span class="line"><span class="cl"><span class="c"># These options set your overall visual apperance.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># These options set your overall visual appearance.</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># Used color variants.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: &#34;auto&#34;</span>
@@ -522,7 +541,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># The theme ships with the following variants: &#34;relearn-bright&#34;,</span>
 </span></span><span class="line"><span class="cl"><span class="c"># &#34;relearn-light&#34;, &#34;relearn-dark&#34;, &#34;zen-light&#34;, &#34;zen-dark&#34;, &#34;neon&#34;, &#34;learn&#34;,</span>
 </span></span><span class="line"><span class="cl"><span class="c"># &#34;blue&#34;, &#34;green&#34;, &#34;red&#34;. In addition you can use auto mode variants. See the</span>
-</span></span><span class="line"><span class="cl"><span class="c"># docs for a detailed explaination.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># docs for a detailed explanation.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># You can also define your own variants. See the docs how this works. Also,</span>
 </span></span><span class="line"><span class="cl"><span class="c"># the docs provide an interactive theme generator to help you with this task.</span>
 </span></span><span class="line"><span class="cl"><span class="nx">themeVariant</span> <span class="p">=</span> <span class="p">[</span>
@@ -533,23 +552,13 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;zen-auto&#34;</span><span class="p">,</span>      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Zen Light/Dark&#34;</span><span class="p">,</span> <span class="nx">auto</span> <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;zen-light&#34;</span><span class="p">,</span> <span class="s2">&#34;zen-dark&#34;</span> <span class="p">]</span> <span class="p">},</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;zen-light&#34;</span>      <span class="p">},</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;zen-dark&#34;</span>       <span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;retro-auto&#34;</span><span class="p">,</span>    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Retro Learn/Neon&#34;</span><span class="p">,</span> <span class="nx">auto</span> <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;learn&#34;</span><span class="p">,</span> <span class="s2">&#34;neon&#34;</span> <span class="p">]</span> <span class="p">},</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;neon&#34;</span>           <span class="p">},</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;learn&#34;</span>          <span class="p">},</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;blue&#34;</span>           <span class="p">},</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;green&#34;</span>          <span class="p">},</span>
 </span></span><span class="line"><span class="cl">	<span class="p">{</span> <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;red&#34;</span>            <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># Filename suffix for variant files.</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Default: not set</span>
-</span></span><span class="line"><span class="cl"><span class="c"># The theme modifies the variant stylesheets during build and tries to store</span>
-</span></span><span class="line"><span class="cl"><span class="c"># them with the same file name. In certain installations it was observed, that</span>
-</span></span><span class="line"><span class="cl"><span class="c"># Hugo could not overwrite these files due to permission issues. If you</span>
-</span></span><span class="line"><span class="cl"><span class="c"># experience this, you can first try to set the `--noChmod` option for Hugo.</span>
-</span></span><span class="line"><span class="cl"><span class="c"># If this still doesn&#39;t help you can set this option to eg. &#34;.gen&#34;. This will</span>
-</span></span><span class="line"><span class="cl"><span class="c"># be used as a suffix for these generated files, causing them to be newly</span>
-</span></span><span class="line"><span class="cl"><span class="c"># created instead of overwriting the existing ones.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">themeVariantModifier</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
 </span></span><span class="line"><span class="cl"><span class="c"># General</span>
@@ -567,7 +576,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># Avoid generator meta tags.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: false</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Set this to true if you want to disable generation for generator meta tags</span>
-</span></span><span class="line"><span class="cl"><span class="c"># of Hugo and the theme in your HTML head. In tihs case also don&#39;t forget to</span>
+</span></span><span class="line"><span class="cl"><span class="c"># of Hugo and the theme in your HTML head. In this case also don&#39;t forget to</span>
 </span></span><span class="line"><span class="cl"><span class="c"># set Hugo&#39;s disableHugoGeneratorInject=true. Otherwise Hugo will generate a</span>
 </span></span><span class="line"><span class="cl"><span class="c"># meta tag into your home page anyways.</span>
 </span></span><span class="line"><span class="cl"><span class="nx">disableGeneratorVersion</span> <span class="p">=</span> <span class="kc">false</span>
@@ -632,11 +641,11 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Menu</span>
-</span></span><span class="line"><span class="cl"><span class="c"># These options modify the menu apperance.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># These options modify the menu appearance.</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># Hide the search box.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: false</span>
-</span></span><span class="line"><span class="cl"><span class="c"># If the searc box is sisabled, the search functionality is disabled too.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># If the search box is disabled, the search functionality is disabled too.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># This will also cause the keyboard shortcut to be disabled and the dedicated</span>
 </span></span><span class="line"><span class="cl"><span class="c"># search page is not linked although it mighty be configured.</span>
 </span></span><span class="line"><span class="cl"><span class="nx">disableSearch</span> <span class="p">=</span> <span class="kc">false</span>
@@ -686,7 +695,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># Hide the language switcher.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: false</span>
 </span></span><span class="line"><span class="cl"><span class="c"># If you have more than one language configured, a language switcher is</span>
-</span></span><span class="line"><span class="cl"><span class="c"># displayed in the lower part of the menu. This opition lets you explicitly</span>
+</span></span><span class="line"><span class="cl"><span class="c"># displayed in the lower part of the menu. This option lets you explicitly</span>
 </span></span><span class="line"><span class="cl"><span class="c"># turn this behavior off.</span>
 </span></span><span class="line"><span class="cl"><span class="nx">disableLanguageSwitchingButton</span> <span class="p">=</span> <span class="kc">false</span>
 </span></span><span class="line"><span class="cl">
@@ -774,6 +783,19 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="nx">highlightWrap</span> <span class="p">=</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Include</span>
+</span></span><span class="line"><span class="cl"><span class="c"># These options configure how the include shortcode works.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># What to do when path is not resolved.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Default: &#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># You can control what should happen if a path can not be resolved to as</span>
+</span></span><span class="line"><span class="cl"><span class="c"># a resource or via the file system. If not set, no output will be written</span>
+</span></span><span class="line"><span class="cl"><span class="c"># for the unresolved path. If set to `warning` the same happens and an additional</span>
+</span></span><span class="line"><span class="cl"><span class="c"># warning is printed. If set to `error` an error message is printed and the build</span>
+</span></span><span class="line"><span class="cl"><span class="c"># is aborted.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">include</span><span class="p">.</span><span class="nx">errorlevel</span> <span class="p">=</span> <span class="s2">&#34;error&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Images</span>
 </span></span><span class="line"><span class="cl"><span class="c"># These options configure how images are displayed.</span>
 </span></span><span class="line"><span class="cl">
@@ -785,12 +807,12 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># printed. If set to `error` an error message is printed and the build is</span>
 </span></span><span class="line"><span class="cl"><span class="c"># aborted.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Please note that this can not resolve files inside of your `static` directory.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">image</span><span class="p">.</span><span class="nx">errorlevel</span> <span class="p">=</span> <span class="s2">&#34;warning&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">image</span><span class="p">.</span><span class="nx">errorlevel</span> <span class="p">=</span> <span class="s2">&#34;error&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># Image effects.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># See the documentation for how you can even add your own arbitrary effects to</span>
 </span></span><span class="line"><span class="cl"><span class="c"># the list.</span>
-</span></span><span class="line"><span class="cl"><span class="c"># All effects can be overridden in the page&#39;s frontmatter or thru URL parameter</span>
+</span></span><span class="line"><span class="cl"><span class="c"># All effects can be overridden in the page&#39;s frontmatter or through URL parameter</span>
 </span></span><span class="line"><span class="cl"><span class="c"># given to the image. See the documentation for details.</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># Default: false</span>
@@ -815,7 +837,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># aborted.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Please note that with Hugo &lt; 0.123.0 + `uglyURLs=true` this can lead to false</span>
 </span></span><span class="line"><span class="cl"><span class="c"># negatives.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">link</span><span class="p">.</span><span class="nx">errorlevel</span> <span class="p">=</span> <span class="s2">&#34;warning&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">link</span><span class="p">.</span><span class="nx">errorlevel</span> <span class="p">=</span> <span class="s2">&#34;error&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># How to open external links.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: &#34;_blank&#34;</span>
@@ -823,7 +845,7 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># values for the HTML `target` attribute of the `a` element are allowed. The</span>
 </span></span><span class="line"><span class="cl"><span class="c"># default value opens external links in a separate browser tab. If you want</span>
 </span></span><span class="line"><span class="cl"><span class="c"># to open those links in the same tab, use &#34;_self&#34;.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">externalLinkTarget</span> <span class="p">=</span> <span class="s2">&#34;_blank&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">externalLinkTarget</span> <span class="p">=</span> <span class="s2">&#34;_self&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c"># Generate link URLs the Hugo way.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># Default: false</span>
@@ -916,7 +938,17 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
 </span></span><span class="line"><span class="cl"><span class="c"># Specifies the remote location of the OpenAPI library. By default the shipped</span>
 </span></span><span class="line"><span class="cl"><span class="c"># version will be used.</span>
 </span></span><span class="line"><span class="cl"><span class="c"># This can be overridden in the page&#39;s frontmatter.</span>
-</span></span><span class="line"><span class="cl"><span class="nx">customOpenapiURL</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span> <span class="c"># &#34;https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js&#34;</span></span></span></code></pre></div></div>
+</span></span><span class="line"><span class="cl"><span class="nx">customOpenapiURL</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span> <span class="c"># &#34;https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># What to do when a local OpenAPI spec link is not resolved.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Default: &#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># You can control what should happen if a local OpenAPI spec link can not be resolved</span>
+</span></span><span class="line"><span class="cl"><span class="c"># to a resource. If not set, the unresolved link is written as given into the resulting</span>
+</span></span><span class="line"><span class="cl"><span class="c"># output. If set to `warning` the same happens and an additional warning is</span>
+</span></span><span class="line"><span class="cl"><span class="c"># printed. If set to `error` an error message is printed and the build is</span>
+</span></span><span class="line"><span class="cl"><span class="c"># aborted.</span>
+</span></span><span class="line"><span class="cl"><span class="c"># Please note that this can not resolve files inside of your `static` directory.</span>
+</span></span><span class="line"><span class="cl"><span class="nx">openapi</span><span class="p">.</span><span class="nx">errorlevel</span> <span class="p">=</span> <span class="s2">&#34;error&#34;</span></span></span></code></pre></div></div>
     </div>
   </div>
 </div>
@@ -927,8 +959,8 @@ hugo. toml yaml json [params] additionalContentLanguage = [&amp;#39;en&amp;#39;]
         </div>
       </main>
     </div>
-    <script src="/hugo-theme-relearn/js/clipboard.min.js?1712846151" defer></script>
-    <script src="/hugo-theme-relearn/js/perfect-scrollbar.min.js?1712846151" defer></script>
-    <script src="/hugo-theme-relearn/js/theme.js?1712846151" defer></script>
+    <script src="/hugo-theme-relearn/js/clipboard.min.js?1717639455" defer></script>
+    <script src="/hugo-theme-relearn/js/perfect-scrollbar.min.js?1717639455" defer></script>
+    <script src="/hugo-theme-relearn/js/theme.js?1717639455" defer></script>
   </body>
 </html>
